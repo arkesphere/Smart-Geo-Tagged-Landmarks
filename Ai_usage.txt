@@ -1,0 +1,67 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name:          Atikur Rahman Khan Emon
+Student ID:    22201670
+Assignment:    CSE 489 Lab Exam - Smart Geo-Tagged Landmarks
+Date:          8/15/26
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[ ] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[X] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[X] Learning/understanding concepts
+[X] Debugging my code
+[X] Generating code snippets
+[X] Writing text content
+[X] Design/styling ideas
+[ ] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+Briefly describe what you used AI for and how:
+
+I used Claude throughout this assignment.
+
+
+Specifically I used it for:
+
+- Explaining concepts I did not know before this assignment:
+  how WorkManager runs in a separate isolate, why the visit has
+  to be polled instead of returning a distance, and why the
+  image upload needs multipart/form-data instead of JSON.
+
+- Debugging errors
+
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+AI helped significantly with almost all of app/lib.
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: Emon
+Date:      8/15/26

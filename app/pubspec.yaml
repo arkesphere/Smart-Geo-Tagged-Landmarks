@@ -1,0 +1,49 @@
+name: geotaggedlandmark
+description: "CSE 489 Lab Exam - Smart Geo-Tagged Landmarks (ID 22201670)"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Calls the faculty API (multipart, form-urlencoded and JSON bodies)
+  http: ^1.6.0
+
+  # Local SQLite cache - the app's single source of truth (requirement 8)
+  sqflite: ^2.4.3
+  path: ^1.9.0
+
+  # androidx.work.WorkManager - background job polling + offline queue (req 10)
+  workmanager: ^0.10.7
+
+  # Detects when the internet comes back (requirement 8)
+  connectivity_plus: ^7.1.1
+
+  # Device GPS (requirements 3 and 6)
+  geolocator: ^14.0.3
+
+  # Picking an image to upload (requirement 6)
+  image_picker: ^1.2.2
+
+  # Map view using OpenStreetMap - no API key needed (requirement 2)
+  flutter_map: ^8.3.1
+  latlong2: ^0.10.1
+
+  # State management
+  provider: ^6.1.5+1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
